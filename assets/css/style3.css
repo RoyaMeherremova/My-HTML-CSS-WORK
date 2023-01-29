@@ -1,0 +1,98 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.photo{
+   width: 1550px;
+   height: 800px;
+   background-image: url(../img/sky.jpg);  
+   padding:10px;
+}
+ 
+@font-face {
+    font-family: Font2;
+    src: url(../fonts/LexendMega-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: Font3;
+    src: url(../fonts/NunitoSans-Bold.ttf);
+  }
+.photo  ul{
+    
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+   font-weight:600;
+   font-family: Font2;
+   margin-top: 15px;
+   
+}
+.photo ul li{
+
+    margin-left:15px;  
+    
+    
+}
+.photo ul li a{
+
+text-decoration: none; 
+color: white;
+    
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.photo .box ul li a{
+    color: chocolate;
+}
+.top .boxleft ul li a{
+    color:chocolate;
+}
+.photo h1{
+    font-family: Font3;
+    margin-left:400px;
+    margin-top: 150px;
+    color: white;
+    word-spacing:10px;
+    font-size: 90px;
+    text-shadow: 1px 1px 2px black;
+    
+}
+.photo p{
+    text-indent:17px;
+    width: 700px;
+    margin-left: 440px;
+    font-weight: 100;
+    font-size: 22px;
+    text-align-last: center;  
+    color: rgb(213, 206, 206);
+    line-height: 40px;
+    text-shadow: 1px 1px 2px black;
+  
+  
+}
+.photo .forhr{
+    height: 1px;
+    width: 550px;
+    background-color:darkgrey;
+    margin-left: 510px;
+    margin-top: 10px;
+} 
+.photo .footer{
+    margin-top: 20px;
+    margin-left: 570px;
+    
+}
+.photo .footer i{
+    margin-left:30px;
+    color:white; 
+    font-size: 25px;
+    
+}
